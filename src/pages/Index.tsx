@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import NewsTicker from "@/components/NewsTicker";
 import AboutUs from "@/components/AboutUs";
 import TeamSection from "@/components/TeamSection";
+import GamesSection from "@/components/GamesSection";
 
 const Index = () => {
   return (
@@ -11,6 +12,7 @@ const Index = () => {
       <NewsTicker />
       <AboutUs />
       <TeamSection />
+      <GamesSection />
     </div>
   );
 };
